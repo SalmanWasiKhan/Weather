@@ -1,0 +1,53 @@
+.container {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+}
+
+.btn {
+  padding: 4px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 99999999px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  color: #fff;
+  fill: currentColor;
+}
+
+.info {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  width: 16rem;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(200, 200, 200, 0.6);
+  user-select: none;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.25s ease-in-out;
+  transform-origin: top right;
+}
+
+.info p {
+  margin: 4px 0 0 0;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.fadeIn {
+  transform: scale(1);
+  opacity: 1;
+}
